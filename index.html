@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beats</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito-Sans" rel="stylesheet" />
+</head>
+
+<body>
+  <section class="applet">
+    <header>
+      <h1>Beat Music</h1>
+      <p>Make Music by Tapping with the Keyboard! <input type="range" id="volume-control"></p>
+    </header>
+    <div class="visual"></div>
+    <div class="pads">
+      
+      <div class="pad1" data-key="65">
+        <kbd>A</kbd>
+        <audio data-key="65" src="https://cdn.glitch.global/2dcaec1e-673b-47c4-989c-fb978c3cb274/springtime-snare.wav?v=1648926419369" class="sound"></audio>
+      </div>
+      
+      <div class="pad2" data-key="83">
+        <kbd>S</kbd>
+        <audio data-key="83" class="sound" source src="https://cdn.glitch.global/2dcaec1e-673b-47c4-989c-fb978c3cb274/Vox-dilla-yo.wav?v=1648927039956"></audio>
+      </div>
+      
+      <div class="pad3" data-key="68">
+        <kbd>D</kbd>
+        <audio data-key="68" class="sound" source src="https://cdn.glitch.global/2dcaec1e-673b-47c4-989c-fb978c3cb274/Dilla-Kick-04.wav?v=1648927388487"></audio>
+      </div>
+      
+      <div class="pad4" data-key="70">
+        <kbd>F</kbd>
+        <audio class="sound" source src="https://cdn.glitch.global/2dcaec1e-673b-47c4-989c-fb978c3cb274/Emulator-2-E-piano-Chord-1.wav?v=1648928939573" data-key="70"></audio>
+      </div>
+      
+      <div class="pad5" data-key="71">
+        <kbd>G</kbd>
+        <audio data-key="71" class="sound" source src="https://cdn.glitch.global/2dcaec1e-673b-47c4-989c-fb978c3cb274/Emulator-2-E-piano-Chord-2.wav?v=1648932733805"></audio>
+      </div>
+      
+      <div class="pad6" data-key="72">
+        <kbd>H</kbd>
+        <audio data-key="72" source src="https://cdn.glitch.global/2dcaec1e-673b-47c4-989c-fb978c3cb274/Emulator-2-E-piano-Chord-5.wav?v=1648932704050" class="sound"></audio>
+      </div>
+      
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

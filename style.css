@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*list style: none;
+  text-decoration: none;
+  outline: none; */
+  color: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: burlywood;
+}
+
+.applet {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 50px 0px 30px 0px;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+header p {
+  font-size: 20px;
+  text-transform: lowercase;
+}
+
+.pads {
+  background: cornflowerblue;
+  width: 100%;
+  display: flex; 
+}
+
+.pads > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+}
+
+.pad1 {
+  background: #60d394;
+}
+
+.pad2 {
+  background: #60c2d3;
+}
+
+.pad3 {
+  background: #d36060;
+}
+
+.pad4 {
+  background: #c060d3;
+}
+
+.pad5 {
+  background: #d3d160;
+}
+
+.pad6 {
+  background: #606bd3;
+}
+
+.visual > div {
+  position: absolute;
+  bottom: 0%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transform: scale(1);
+  z-index: -1;
+}
+
+@keyframes jump {
+0%{
+  bottom: 0%;
+  left: 20%;
+}
+
+50%{
+  bottom: 50%;
+  left: 50%;
+}
+
+100%{
+  bottom: 00%;
+  left: 80%;
+  }
+}
+
+kbd{
+  color:black;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin-left: 27%;
+}
