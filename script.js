@@ -16,7 +16,7 @@ window.addEventListener("load", () => {
     const bubbles = document.createElement("div");
     visual.appendChild(bubbles);
     bubbles.style.backgroundColor = colors[index]; //bubble is of the pad color that is clicked
-    bubbles.style.animation = `jump .5s ease`; //jump .5 seconds
+    bubbles.style.animation = `jump .5s ease`; //jump .5 seconds. DOM style HTML element. object.style.animation
     bubbles.addEventListener("animationend", function () {
       visual.removeChild(this); //when animation ends, obviously remove the bubble
     });
