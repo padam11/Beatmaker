@@ -78,10 +78,10 @@ header p {
   z-index: -1;
 }
 
-@keyframes jump {
+@keyframes jump { /* when jump animation */
 0%{
   bottom: 0%;
-  left: 20%;
+  left: 20%; /* left to right? experiment */
 }
 
 50%{
